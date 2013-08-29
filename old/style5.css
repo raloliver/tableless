@@ -1,0 +1,25 @@
+*{margin:0; padding:0;}
+#fundo{
+	height:100%;
+	width:100%;
+	background:url(bgtransparente.png);
+	position:fixed;
+	top:0;
+	left:0;
+}
+#fundo .janela{
+	width:300px;
+	height:135px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-150px;
+	margin-top:-70px;
+	padding:10px;
+	background:#FFF;
+}
+#fundo .close {
+	position:absolute;
+	right:0;
+	top:-20px;
+}

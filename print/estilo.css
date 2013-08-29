@@ -1,0 +1,65 @@
+/*
+Site: Print - Imprimir
+Versão: 0.1
+Autor: Ral Oliver
+Site do autor: www.raloliver.com
+*/
+
+/*RESET*/
+*{margin:0;padding:0;}
+body{background:url(images/body_bg.png)repeat-x #fff;}
+#corpo{width:900px; margin:0 auto;}
+#espaco{width:900px; height:15px; background:url(images/espaco_bg.png) no-repeat center;}
+#rodape_espaco{width:900px; height:15px; background:url(images/rodape_espaco.png) no-repeat center;}
+#conteudo{width:900px; background:url(images/conteudo_bg.png) repeat-y center; float:left;}
+#limpar{clear:both;}
+
+/*TOPO*/
+#topo{width:900px; height:161px;}
+#topo .logo{width:480px; height:109px; margin: 0 auto; display:block;}
+#topo .linha, #rodape .linha{width:900px; height:2px; background:url(images/topo_hr_bg.png) repeat-x;}
+#topo .menu, #rodape .menu{float:left; list-style:none; display:inline; width:876px; border-bottom:3px solid #D36666; padding:3px 12px;}
+#topo .menu li, #rodape .menu li{float:left; margin:10px;}
+#topo .menu li a, #rodape .menu li a{font:bold 14px Arial, Helvetica, sans-serif; color:#fff; text-transform:uppercase; text-decoration:none; float:left;}
+#topo .menu li a:hover, #rodape .menu li a:hover{text-decoration:underline;}
+#topo .menu .iconel, #rodape .menu .iconel{width:17px; height:17px; background:url(images/icone_menu_l.png) no-repeat center;}
+#topo .menu .iconer, #rodape .menu .iconer{width:17px; height:17px; background:url(images/icone_menu_r.png) no-repeat center;}
+#topo .menu .separador, #rodape .menu .separador{width:17px; height:17px; background:url(images/separador.png) no-repeat center;}
+#topo .info_imprimir{display:none;}
+
+/*CONTEUDO*/
+#conteudo_corpo{margin: 0 10px 5px 10px; float:left; width:880px;}
+#conteudo .titulo{padding:6px; background:#333; font: 20px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#fff; margin-bottom:10px;}
+
+/*SIDERBAR A*/
+#conteudo .siderbar_a {width:430px; float:left;}
+#conteudo .siderbar_a .ref {padding:5px; background:#FFF; margin-bottom:10px; float:left;}
+#conteudo .siderbar_a .ref h2{font:18px Arial, Helvetica, sans-serif; color:#333;}
+#conteudo .siderbar_a .ref p {font:12px Arial, Helvetica, sans-serif; color:#333; margin:10px 0;}
+#conteudo .siderbar_a .ref ul{list-style:square; margin:0 25px; color:#666;}
+#conteudo .siderbar_a .ref li{margin:3px 0; font: bold 12px Arial, Helvetica, sans-serif; color:#666;}
+#conteudo .siderbar_a .ref span{font:27px Arial, Helvetica, sans-serif; color:#990000;}
+#conteudo .siderbar_a .ref .contato{margin:10px 0;}
+#conteudo .siderbar_a .ref .contato span{color:#FFF; padding:6px; background:#990000; font-size:20px; margin-bottom:10px; display:block; float:left;}
+#conteudo .siderbar_a .ref .contato p{margin:3px 0; float:left; display:block; font-size:18px;}	
+#conteudo .siderbar_a .imagens{float:left; list-style:none;}
+#conteudo .siderbar_a .imagens li{margin-bottom:10px;}
+
+/*SIDERBAR B*/
+#conteudo .siderbar_b {width:430px; float:right;}
+#conteudo .siderbar_b .thumb {float:right;}
+#conteudo .siderbar_b .galeria {padding:5px; background:#FFF; float:right; margin:10px 0; width:420px; list-style:none; display:inline;}
+#conteudo .siderbar_b .galeria li {float:left; margin:5px;}
+#conteudo .siderbar_b .imprimir {padding:6px; background:#333; text-align:center; float:right; width:418px;}
+#conteudo .siderbar_b .imprimir a {background:none; border:0; font:bold 18px Arial, Helvetica, sans-serif; color:#FFF; cursor:pointer; text-decoration:none;}
+
+/*RODAPE*/
+#rodape{height: 185px; background:#990000;}
+#rodape .rodape_corpo {width:900px; margin:0 auto; height:185px;}
+#rodape .rodape_elementos {float:left; width:900px; list-style:none; display:inline;}
+#rodape .rodape_elementos li {float:left; margin:15px 70px 0 20px;}
+#rodape .rodape_elementos .direita {float:right; margin: 15px 10px 0 0;}
+#rodape .rodape_elementos li .tel {font: bold italic 20px Arial, Helvetica, sans-serif; color: #fff; padding-left:40px; background:url(images/rodape_tel.png) no-repeat left;}
+#rodape .rodape_elementos li .mail {font: bold italic 20px Arial, Helvetica, sans-serif; color: #fff; padding-left:40px; background:url(images/rodape_mail.png) no-repeat left;}
+#rodape .rodape_elementos li p {font: bold 16px Arial, Helvetica, sans-serif; color:#fff; text-transform:uppercase; margin: 5px 10px;}
+#rodape .rodape_elementos li .min {font: bold 14px Arial, Helvetica, sans-serif; color:#fff; text-transform:lowercase; margin: 8px 10px;}

@@ -1,0 +1,52 @@
+*{margin:0; padding:0;}
+body {
+
+	}
+table {
+	margin:10px;
+	border: 1px solid #000;
+	border-right: 0;
+	border-bottom: 0;
+	font:Verdana, Geneva, sans-serif;
+	color: #999;
+}
+table tr:hover {
+	background:#00f;
+	color:#fff;
+}
+table a {
+	text-decoration:none;
+	color:FF0;
+	padding: 2px 6px;
+	border: 1px inset #f30;
+	font: bold small-caps 12px Arial, Helvetica, sans-serif;
+	background:#f60;
+}
+table a:hover {
+	text-decoration:none;
+	color:FF0;
+	padding: 2px 6px;
+	border: 1px outset #f60;
+	font: bold small-caps 12px Arial, Helvetica, sans-serif;
+	background:#f60;
+}
+table td {
+	border: 1px solid #000;
+	border-left: 0;
+	border-top:0;
+	padding:5px;
+}
+
+table .titulo td {
+	background:#FF0;
+	font: 16px bold Tahoma, Geneva, sans-serif;
+	color: #FFF;
+	padding: 8px;
+}
+#tabela {
+	caption-side:top, bottom;
+	table-layout:auto, fixed;
+	border-collapse:collapse, separate;
+	border-spacing:15px;
+	empty-cells:show, hide;
+}
